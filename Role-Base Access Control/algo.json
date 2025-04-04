@@ -1,0 +1,48 @@
+db.createUser(
+    {
+        user:"pepe",
+        pwd: "123456",
+        roles: [
+            {role: "bibliotecario", db: "campus"}
+        ]
+    }
+)
+
+db.getRole("rol1")
+
+db.getUser("harry")
+
+db.grantRolesToUser(
+    "pepe",
+    [{role:"adminbibliotecario", db:"campus"}]
+)
+
+db.revokeRolesFromUser(
+    "pepe",
+    [{role:"bibliotecario", db:"campus"}]
+)
+
+db.createRole({
+    role:"inventorymanager",
+    privileges:[],
+    roles: [],
+    resource: { db: "supermercado", collection: "inventario"}
+})
+
+db.createRole({
+    role:"bibliotecario",
+    privileges:[{
+        resource: { db: "campus", collection: "libros"},
+        actions: [ "find", "update"]
+    }],
+    roles: []
+    })
+
+db.createRole({
+    role:"adminbibliotecario",
+    privileges:[{
+        resource: { db: "campus", collection: "libros"},
+        actions: [ "find", "update", "remove", "insert"]
+    }],
+    roles: []
+    })

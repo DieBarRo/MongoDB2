@@ -1,0 +1,102 @@
+[
+    {
+        "date": "01-01-2025",
+        "product": {
+            "code": "001",
+            "name": "Arroz",
+            "provider": "Diana"
+        },
+        "quantity": 2,
+        "price": 1500
+    },
+    {
+        "date": "01-01-2025",
+        "product": {
+            "code": "002",
+            "name": "Lentejas",
+            "provider": "Diana"
+        },
+        "quantity": 4,
+        "price": 800
+    },
+    {
+        "date": "02-01-2025",
+        "product": {
+            "code": "001",
+            "name": "Arroz",
+            "provider": "Diana"
+        },
+        "quantity": 5,
+        "price": 1500
+    },
+    {
+        "date": "02-01-2025",
+        "product": {
+            "code": "003",
+            "name": "Azucar",
+            "provider": "Manuelita"
+        },
+        "quantity": 1,
+        "price": 1000
+    },
+    {
+        "date": "02-01-2025",
+        "product": {
+            "code": "004",
+            "name": "Atún",
+            "provider": "Van Camp's"
+        },
+        "quantity": 6,
+        "price": 4000
+    },
+    {
+        "date": "03-01-2025",
+        "product": {
+            "code": "001",
+            "name": "Arroz",
+            "provider": "Diana"
+        },
+        "quantity": 1,
+        "price": 1500
+    },
+    {
+        "date": "03-01-2025",
+        "product": {
+            "code": "001",
+            "name": "Arroz",
+            "provider": "Diana"
+        },
+        "quantity": 2,
+        "price": 1500
+    },
+    {
+        "date": "03-01-2025",
+        "product": {
+            "code": "004",
+            "name": "Atún",
+            "provider": "Van Camp's"
+        },
+        "quantity": 2,
+        "price": 4000
+    },
+    {
+        "date": "04-01-2025",
+        "product": {
+            "code": "002",
+            "name": "Lentejas",
+            "provider": "Diana"
+        },
+        "quantity": 6,
+        "price": 800
+    },
+    {
+        "date": "04-01-2025",
+        "product": {
+            "code": "001",
+            "name": "Arroz",
+            "provider": "Diana"
+        },
+        "quantity": 6,
+        "price": 1500
+    }
+]

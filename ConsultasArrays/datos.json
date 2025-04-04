@@ -1,0 +1,36 @@
+{
+    "accountNumber": "21452255",
+    "password": "112asd12",
+    "createdAt": "01-01-2020",
+    "active": true,
+    "client": {
+        "identificationNumber": "542....",
+        "name": "Pepe Pinto",
+        "cellphone": "55555555...",
+        "email": "pepepardo@mail.net",
+        "address": {
+            "street": "Siempre Viva",
+            "city": "Springfield" 
+        }
+    },
+    "movements": [
+        {
+            "type": "deposit",
+            "date": "02-01-2020...",
+            "description": "Deposit",
+            "ammount": 100
+        },
+        {
+            "type": "withdrawal",
+            "date": "03-01-2020...",
+            "description": "Withdrawal",
+            "ammount": 50
+        },
+        {
+            "type": "Withdrawal",
+            "date": "03-01-2020...",
+            "description": "Service payment - Energy 1247782",
+            "ammount": 50
+        }
+    ]
+}
