@@ -711,7 +711,7 @@ db.products.insertMany([
         "price": 125000
     },
     {
-        "code": "2-0023-D",
+        "code": "4-0023-D",
         "name": "Cable red UTP RJ45",
         "price": 20000
     },
